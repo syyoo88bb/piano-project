@@ -17,7 +17,7 @@ with tab1:
     st.header("나의 연주")
     st.write("제가 연주한 베버 곡을 감상해보세요.")
     # 유튜브 영상 예시 (나중에 선생님 영상 주소로 바꾸면 돼요!)
-    st.video("https://www.youtube.com/Nu70WEsjz88?si=2Pr4585N-BqBCt7")
+    st.video("https://youtu.be/Nu70WEsjz88?si=2Pr4585N-BqBCt7")
 
 with tab2:
     st.header("연구 및 분석")

@@ -8,7 +8,7 @@ st.title("🎹 [Elsa]의 피아노 이야기")
 st.write("음악과 기술이 만나는 곳, 저의 피아노 프로젝트에 오신 것을 환영합니다!")
 
 # 3. 멋진 피아노 사진 (인터넷 주소로 이미지 넣기)
-st.image("제목 없는 이미지", caption="Music is Life")
+st.image("piano.png", caption="Music is Life")
 
 # 4. 내용 나누기 (탭 기능)
 tab1, tab2 = st.tabs(["🎵 연주 기록", "📝 연구 노트"])

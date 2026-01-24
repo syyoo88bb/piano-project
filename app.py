@@ -24,6 +24,17 @@ with tab2:
     st.write("AI와 피아노 연주에 대한 분석 내용을 이곳에 기록합니다.")
     st.info("작성 중인 논문: AI가 해석하는 피아노의 감성")
 
+st.markdown("---") 
+note = st.text_area("📝 연구 노트", placeholder="여기에 번뜩이는 아이디어를 자유롭게 적어보세요!")
+
+if st.button("노트 저장하기 💾"):
+    if note:
+        st.success("Elsa의 아이디어가 화면에 기록됐어! (새로고침하면 사라지니 주의!)")
+        st.write(f"**내용:** {note}")
+    else:
+        st.warning("내용이 비어있어! 😅")
+# 👆 여기까지! 👆
+
 # 5. 마무리 버튼
 if st.button('응원하기 👏'):
     st.balloons()

@@ -12,9 +12,9 @@ with st.sidebar:
     # 만약 이름이 다르면 "cv.pdf" 부분을 그 파일 이름으로 고쳐주세요.
     with open("cv.pdf", "rb") as file:
         btn = st.download_button(
-            label="📥 Download C.V.",  # 버튼에 적힐 글자
+            label="📥 Download cv.",  # 버튼에 적힐 글자
             data=file,
-            file_name="Elsa_c.v.pdf",   # 다운로드될 때 저장될 이름
+            file_name="Elsa_cv.pdf",   # 다운로드될 때 저장될 이름
             mime="application/pdf"
         )
 # ==========================================

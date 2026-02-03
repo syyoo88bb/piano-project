@@ -14,7 +14,7 @@ with st.sidebar:
         btn = st.download_button(
             label="📥 Download C.V.",  # 버튼에 적힐 글자
             data=file,
-            file_name="Elsa_CV.pdf",   # 다운로드될 때 저장될 이름
+            file_name="Elsa_c.v.pdf",   # 다운로드될 때 저장될 이름
             mime="application/pdf"
         )
 # ==========================================

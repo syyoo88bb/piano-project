@@ -1,6 +1,5 @@
 import streamlit as st
 
-import streamlit as st
 
 # ==========================================
 # [여기서부터 복사하세요] 왼쪽 사이드바 C.V. 설정

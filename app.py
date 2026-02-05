@@ -9,10 +9,16 @@ with st.sidebar:
     with st.expander("📄 Prof. Elsa 이력서 보기 (Click)"):
         st.markdown("""
         ### 🎓 Education
-       *D.M.A.in Piano Performance(UIUC, USA 2005)
-       *Dissertation:"A Study of Selected Piano Works of Samuel Adler" 
-       *M.M.in Piano Performance(UIUC, USA 2001)
-       *B.M.in Piano Performance(SNU, Seoul, Korea, 1997)
+       * **D.M.A. in Piano Performance**
+          * University of Illinois at Urbana-Champaign (UIUC/USA,2005)
+          * Dissertation: "A Study of Selected Piano Works of Samuel Adler"
+        
+        * **M.M. in Piano Performance**
+          * University of Illinois at Urbana-Champaign (UIUC/USA,2001)
+        
+        * **B.M. in Piano Performance**
+          * Seoul National University (SNU/Korea,1997)
+        """)
         
         ---
         

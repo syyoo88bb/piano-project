@@ -10,7 +10,31 @@ with st.sidebar:
     # 1단계에서 올린 파일 이름이 'cv.pdf'라고 가정할게요!
     # 만약 이름이 다르면 "cv.pdf" 부분을 그 파일 이름으로 고쳐주세요.
     with open("cv.pdf", "rb") as file:
-        btn = st.download_button(
+        btn = st.markdown("---") # 구분선 (깔끔해 보여요)
+
+    # '이력서 보기' 메뉴 만들기 (클릭하면 열림)
+    with st.expander("📄 Prof. Elsa 이력서 보기 (Click)"):
+        st.markdown("""
+        ### 🎓 Education
+        * **미국 OO 주립대학교**
+          * 피아노 연주 박사 (D.M.A)
+          * 피아노 연주 석사 (M.M)
+        * **서울대학교**
+          * 음악대학 기악과 학사
+        
+        ---
+        
+        ### 💼 Experience
+        * **현) OO대학교 교수** (20XX ~ 현재)
+        * **주요 피아노 콩쿨 심사위원** 위촉
+        * 국내외 독주회 및 협연 다수
+        * 20년 이상 전문 연주자 및 교육자로 활동 중
+        
+        ---
+        
+        ### 📧 Contact
+        * elsa@piano-project.com
+        """)
             label="📥 Download cv.",  # 버튼에 적힐 글자
             data=file,
             file_name="cv.pdf",   # 다운로드될 때 저장될 이름

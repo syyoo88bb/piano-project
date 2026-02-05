@@ -9,11 +9,13 @@ with st.sidebar:
     with st.expander("📄 Prof. Elsa 이력서 보기 (Click)"):
         st.markdown("""
         ### 🎓 Education
-        * **미국 일리노이 대학교 (UIUC)**
-          * 피아노 연주 박사 (D.M.A)
-          * 피아노 연주 석사 (M.M)
-        * **서울대학교**
-          * 음악대학 기악과 학사
+       University of Illinois at Urbana-Champaign (UIUC)| Urbana, IL, USA 
+       Doctor of Musical Arts (D.M.A.) in Piano Performance(2005) 
+       Dissertation:"A Study of Selected Piano Works of Samuel Adler" 
+       University of Illinois at Urbana-Champaign (UIUC)| Urbana, IL, USA 
+       Master of Music (M.M.) in Piano Performance(2001)
+       Seoul National University| Seoul, South Korea 
+       Bachelor of Music (B.M.) in Piano Performance(1997)
         
         ---
         

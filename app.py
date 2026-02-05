@@ -10,14 +10,14 @@ with st.sidebar:
         st.markdown("""
         ### 🎓 Education
        * **D.M.A. in Piano Performance**
-          * University of Illinois at Urbana-Champaign (UIUC/USA,2005)
+          * University of Illinois at Urbana-Champaign/USA (2005)
           * Dissertation: "A Study of Selected Piano Works of Samuel Adler"
         
         * **M.M. in Piano Performance**
-          * University of Illinois at Urbana-Champaign (UIUC/USA,2001)
+          * University of Illinois at Urbana-Champaign/USA (2001)
         
         * **B.M. in Piano Performance**
-          * Seoul National University (SNU/Korea,1997)
+          * Seoul National University/Korea (1997)
         
         
         ---

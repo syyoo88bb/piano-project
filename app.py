@@ -9,13 +9,10 @@ with st.sidebar:
     with st.expander("📄 Prof. Elsa 이력서 보기 (Click)"):
         st.markdown("""
         ### 🎓 Education
-       University of Illinois at Urbana-Champaign (UIUC)| Urbana, IL, USA 
-       Doctor of Musical Arts (D.M.A.) in Piano Performance(2005) 
-       Dissertation:"A Study of Selected Piano Works of Samuel Adler" 
-       University of Illinois at Urbana-Champaign (UIUC)| Urbana, IL, USA 
-       Master of Music (M.M.) in Piano Performance(2001)
-       Seoul National University| Seoul, South Korea 
-       Bachelor of Music (B.M.) in Piano Performance(1997)
+       *D.M.A.in Piano Performance(UIUC, USA 2005)
+       *Dissertation:"A Study of Selected Piano Works of Samuel Adler" 
+       *M.M.in Piano Performance(UIUC, USA 2001)
+       *B.M.in Piano Performance(SNU, Seoul, Korea, 1997)
         
         ---
         

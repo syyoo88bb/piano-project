@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+st.write("음악과 기술이 만나는 곳, 저의 피아노 프로젝트에 오신 것을 환영합니다!")
 with st.sidebar:
     st.header("Prof. Elsa") # 선생님 이름이나 직함
 
@@ -28,11 +28,7 @@ with st.sidebar:
         ### 📧 Contact
         * elsa@piano-project.com
         """)
-            label="📥 Download cv.",  # 버튼에 적힐 글자
-            data=file,
-            file_name="cv.pdf",   # 다운로드될 때 저장될 이름
-            mime="application/pdf"
-        )
+            
 # ==========================================
 # [여기까지]
 # ==========================================
@@ -41,7 +37,7 @@ st.set_page_config(page_title="My Piano World", page_icon="🎹")
 
 # 2. 제목과 소개글
 st.title("🎹 [Elsa]의 피아노 이야기")
-st.write("음악과 기술이 만나는 곳, 저의 피아노 프로젝트에 오신 것을 환영합니다!")
+
 
 # 3. 멋진 피아노 사진 (인터넷 주소로 이미지 넣기)
 st.image("piano1.png", caption="Music is Life")

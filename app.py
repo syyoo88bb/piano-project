@@ -1,16 +1,9 @@
 import streamlit as st
 
 
-# ==========================================
-# [여기서부터 복사하세요] 왼쪽 사이드바 C.V. 설정
-# ==========================================
 with st.sidebar:
     st.header("Prof. Elsa") # 선생님 이름이나 직함
-    
-    # 1단계에서 올린 파일 이름이 'cv.pdf'라고 가정할게요!
-    # 만약 이름이 다르면 "cv.pdf" 부분을 그 파일 이름으로 고쳐주세요.
-    with open("cv.pdf", "rb") as file:
-        btn = st.markdown("---") # 구분선 (깔끔해 보여요)
+
 
     # '이력서 보기' 메뉴 만들기 (클릭하면 열림)
     with st.expander("📄 Prof. Elsa 이력서 보기 (Click)"):

@@ -18,7 +18,7 @@ with st.sidebar:
         
         * **B.M. in Piano Performance**
           * Seoul National University (SNU/Korea,1997)
-        """)
+        
         
         ---
         

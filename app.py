@@ -9,7 +9,7 @@ with st.sidebar:
     with st.expander("📄 Prof. Elsa 이력서 보기 (Click)"):
         st.markdown("""
         ### 🎓 Education
-        * **미국 OO 주립대학교**
+        * **미국 일리노이 대학교 (UIUC)**
           * 피아노 연주 박사 (D.M.A)
           * 피아노 연주 석사 (M.M)
         * **서울대학교**
@@ -18,7 +18,7 @@ with st.sidebar:
         ---
         
         ### 💼 Experience
-        * **현) OO대학교 교수** (20XX ~ 현재)
+        * **목원대, 전남대, 건국대, 강남대, 숙명여대, 삼육대, 숭실 컨서바토리, 백석 컨서바토리, 계원예중,고 강사 역임
         * **주요 피아노 콩쿨 심사위원** 위촉
         * 국내외 독주회 및 협연 다수
         * 20년 이상 전문 연주자 및 교육자로 활동 중
@@ -26,7 +26,7 @@ with st.sidebar:
         ---
         
         ### 📧 Contact
-        * elsa@piano-project.com
+        * syyoo88bb@gmail.com
         """)
             
 # ==========================================
